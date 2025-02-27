@@ -1,7 +1,7 @@
-#Overview
+# Overview
 This repo uses a PostgreSQL with Flask application for development. It leverages Nginx as a web load balancer, Flask with Gunicorn for the web framework, and PostgreSQL for reliable data storage. The infrastructure is containerized using Docker. It also has separate development and production environments for deployment.
 
-##Build
+## Build
 1. First, check if Docker and Docker Compose are installed
 2. Clone this repo:
 ```
