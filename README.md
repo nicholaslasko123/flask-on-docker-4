@@ -32,6 +32,7 @@ You should be able to see the image at
 ```      
 http://localhost:5009/media/Happy_Birthday_GIF.gif
 ```
+You can set up port forwarding to map port 5009 to another port, allowing you to connect through your browser using the reassigned port.
+
 https://github.com/user-attachments/assets/bb409464-5bcf-40c1-a273-221d9dfb1c33
 
-You can set up port forwarding to map port 5009 to another port, allowing you to connect through your browser using the reassigned port.
