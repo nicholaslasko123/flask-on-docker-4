@@ -21,7 +21,7 @@ $ docker compose -f docker-compose.prod.yml up -d --build
 $ docker compose -f docker-compose.prod.yml exec web python manage.py create_db
 ```
 
-We are moving into the production stage in which we prepare our application for users. We use docker-compose.prod.yml to build the image. This configuration includes a separate .env.dev file which integrates Gunicorn and Nginx to enhance performance and scalability.
+We are moving into the production stage in which we prepare for users. We use docker-compose.prod.yml to build the image. This includes a .env.dev file that integrates Gunicorn and Nginx to enhance performance and scalability.
 
 Access a port on a Firefox browser:
 ```
