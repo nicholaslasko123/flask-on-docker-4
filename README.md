@@ -14,7 +14,7 @@ $ docker compose up -d --build
 ```
  This creates the containers by using the docker-compose.yml file.
 
-4. Bring down the services, build the images, and spin the containers:
+4. Bring down services, build images, and spin containers:
 ```
 $ docker compose down -v
 $ docker compose -f docker-compose.prod.yml up -d --build
