@@ -12,7 +12,7 @@ cd flask-on-docker-4
 ```
 $ docker compose up -d --build
 ```
- This creates the containers by using the docker-compose.yml file.
+ This uses the docker-compose.yml file to create images.
 
 4. Bring down services, build images, and spin containers:
 ```
@@ -32,7 +32,7 @@ You should be able to see the image at
 ```      
 http://localhost:5009/media/Happy_Birthday_GIF.gif
 ```
-You can set up port forwarding to map port 5009 to another port, allowing you to connect through your browser using the reassigned port.
+You can set up port forwarding to map port 5009 to another port. This allows you to connect through your browser using the reassigned port.
 
 https://github.com/user-attachments/assets/bb409464-5bcf-40c1-a273-221d9dfb1c33
 
